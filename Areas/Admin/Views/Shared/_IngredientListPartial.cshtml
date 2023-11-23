@@ -1,0 +1,50 @@
+﻿@model IngredientList
+
+<h3>
+    Ингредиенты @Model.Purpose:
+    [ 
+    @Html.ActionLink("Удалить", "Delete", "IngredientList", new { id = Model.Id, recipeId = Model.RecipeId })
+    @Html.ActionLink("Редактировать", "Edit", "IngredientList", new { id = Model.Id })
+    ]
+</h3>
+<div class="table-wrapper">
+    <table>
+        <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(x => x.Ingredients.FirstOrDefault().Name)</th>
+            <th>@Html.DisplayNameFor(x => x.Ingredients.FirstOrDefault().Amount)</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var i in Model.Ingredients)
+        {
+            <tr>
+                <th>
+                    @i.Name
+                    [
+                    @Html.ActionLink("Редактировать", "Edit", "Ingredient", new { id = i.Id, returnUrl = Context.Request.Path })
+                    @Html.ActionLink("Удалить", "Delete", "Ingredient", new { id = i.Id, returnUrl = Context.Request.Path })
+                    ]
+                </th>
+                <th>
+                    @if (i.Unit is Unit.Optional or Unit.Taste)
+                    {
+                        @i.Unit.ToRussian()
+                    }
+                    else
+                    {
+                        @i.Amount@i.Unit.ToRussian()
+                    }
+                </th>
+            </tr>
+        }
+        </tbody>
+        <tfoot>
+        <tr>
+            <th>@Html.ActionLink("Добавить", "Create", "Ingredient", new { id = Model.Id, returnUrl = Context.Request.Path })</th>
+            <th></th>
+        </tr>
+        </tfoot>
+    </table>
+</div>
+

@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Recipe>
+
+<div class="box alt">
+    <div class="row">
+        @foreach (var recipe in Model)
+        {
+            <div class="col-4">
+                <article>
+                    <span class="image fit">
+                        <a asp-area="" asp-controller="Home" asp-action="Recipe" asp-route-id="@recipe.Id" class="image">
+                            <img src="@Url.Content("~/images/" + recipe.ImageName)" runat="server" alt>
+                        </a>
+                    </span>
+                    <h3>@recipe.Title</h3>
+                    <ul class="actions">
+                        <li>
+                            <a asp-area="" asp-controller="Home" asp-action="Recipe" asp-route-id="@recipe.Id">Смотреть</a>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+        }
+    </div>
+</div>

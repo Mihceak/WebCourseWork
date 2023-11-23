@@ -1,0 +1,13 @@
+﻿@model IngredientListViewModel
+
+<form asp-area="Admin" asp-controller="IngredientList" asp-action="Create" aspr>
+    @Html.HiddenFor(x => x.RecipeId)
+    <div>
+        @Html.DisplayNameFor(x => x.Purpose)
+        @Html.EditorFor(x => x.Purpose)
+        @Html.ValidationMessageFor(x => x.Purpose)
+    </div>
+    <div>
+        <input type="submit" value="Добавить список">
+    </div>
+</form>

@@ -1,0 +1,17 @@
+﻿@model DataManager
+
+<a asp-area="Admin" asp-controller="Recipe" asp-action="Create">Добавить рецепт</a>
+
+<h3>Существующие рецепты</h3>
+<ul class="alt">
+    @foreach (var r in Model.Recipes.GetRecipes())
+    {   
+        <li>
+            @r.Title
+            [
+            @Html.ActionLink("Удалить", "Delete", "Recipe", new { id = r.Id, returnUrl = Context.Request.Path })
+            @Html.ActionLink("Редактировать", "Edit", "Recipe", new { id = r.Id })
+            ]
+        </li>
+    }
+</ul>

@@ -1,0 +1,19 @@
+﻿<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    @await Html.PartialAsync("MetatagsPartial")
+    @await Html.PartialAsync("StylesPartial")
+</head>
+<body class="is-preload">
+<div id="wrapper">
+    <div id="main">
+        <div class="inner">
+            @await Html.PartialAsync("HeaderPartial")
+            @RenderBody()
+        </div>
+    </div>
+    @await Html.PartialAsync("SidebarPartial");
+</div>
+@await Html.PartialAsync("ScriptsPartial")
+</body>
+</html>

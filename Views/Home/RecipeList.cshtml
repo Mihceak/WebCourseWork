@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Recipe>
+
+<section>
+    <header class="main">
+        <h1>Все рецепты</h1>
+    </header>
+    <div class="row gtr-uniform">
+        <div class="col-6 col-12">
+            <ul class="actions">
+                <li>
+                    <a class="button primary" asp-area="" asp-controller="Home" asp-action="RecipeList" asp-route-filter="First">Первые блюда</a>
+                </li>
+                <li>
+                    <a class="button primary" asp-area="" asp-controller="Home" asp-action="RecipeList" asp-route-filter="Second">Вторые блюда</a>
+                </li>
+                <li>
+                    <a class="button primary" asp-area="" asp-controller="Home" asp-action="RecipeList" asp-route-filter="Dessert">Десерты</a>
+                </li>
+                <li>
+                    <a class="button primary" asp-area="" asp-controller="Home" asp-action="RecipeList" asp-route-filter="Drink">Напитки</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+@switch (ViewBag.Filter)
+{
+    case Category.First: ViewBag.Header = "Первые блюда"; break;
+    case Category.Second: ViewBag.Header = "Вторые блюда"; break;
+    case Category.Dessert: ViewBag.Header = "Десерты"; break;
+    case Category.Drink: ViewBag.Header = "Напитки"; break;
+}
+<section>
+    <header class="major">
+        <h2>@ViewBag.Header</h2>
+    </header>
+    @await Html.PartialAsync("_RecipeListPartial", Model.Where(x => x.Category == ViewBag.Filter))
+</section>

@@ -1,0 +1,30 @@
+﻿@model Ingredient
+
+<form asp-area="Admin" asp-controller="Ingredient" asp-action="Edit" asp-route-returnUrl="@ViewBag.ReturnUrl">
+    <div>
+        @Html.DisplayNameFor(x => x.Id)
+        @Html.TextBoxFor(x => x.Id, new { @readonly = true })
+    </div>
+    <div>
+        @Html.DisplayNameFor(x => x.IngredientListId)
+        @Html.TextBoxFor(x => x.IngredientListId, new { @readonly = true })
+    </div>
+    <div>
+        @Html.DisplayNameFor(x => x.Name)
+        @Html.EditorFor(x => x.Name)
+        @Html.ValidationMessageFor(x => x.Name)
+    </div>
+    <div>
+        @Html.DisplayNameFor(x => x.Amount)
+        @Html.EditorFor(x => x.Amount)
+        @Html.ValidationMessageFor(x => x.Amount)
+    </div>
+    <div>
+        @Html.DisplayNameFor(x => x.Unit)
+        @Html.DropDownListFor(x => x.Unit, Html.GetEnumSelectList<Unit>())
+        @Html.ValidationMessageFor(x => x.Unit)
+    </div>
+    <div>
+        <input type="submit" value="Сохранить изменения">
+    </div>
+</form>

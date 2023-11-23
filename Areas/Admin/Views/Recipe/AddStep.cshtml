@@ -1,0 +1,24 @@
+﻿@model Recipe
+
+<form asp-area="Admin" asp-controller="Recipe" asp-action="AddStep" method="post">
+    @Html.HiddenFor(x => x.Id)
+    @Html.HiddenFor(x => x.ImageName)
+    @Html.HiddenFor(x => x.Title)
+    @Html.HiddenFor(x => x.Category)
+    @Html.HiddenFor(x => x.Description)
+    @Html.HiddenFor(x => x.Difficulty)
+    @Html.HiddenFor(x => x.PrepareTime)
+    @Html.HiddenFor(x => x.CookTime)
+    @for (var i = 0; i < Model.Steps.Count - 1; i++)
+    {
+        @Html.HiddenFor(x => x.Steps[i])
+    }
+    <div>
+        @{ int index = ViewBag.Index;}
+        @Html.DisplayNameFor(x => x.Steps[index])
+        @Html.TextBoxFor(x => x.Steps[index])
+    </div>
+    <div>
+        <input type="submit" value="Добавить">
+    </div>
+</form>

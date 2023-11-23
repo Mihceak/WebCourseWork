@@ -1,0 +1,589 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\css\\fontawesome-all.min.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome-all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\css\\main.min.css",
+      "PackagePath": "staticwebassets\\css\\main.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\images\\carbonara-13-05-2022-04-05-54-.jpg",
+      "PackagePath": "staticwebassets\\images\\carbonara-13-05-2022-04-05-54-.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\images\\pizza2.jpg",
+      "PackagePath": "staticwebassets\\images\\pizza2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\images\\ramen.jpg",
+      "PackagePath": "staticwebassets\\images\\ramen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\images\\ramen13-17-2022-05-17-55.jpg",
+      "PackagePath": "staticwebassets\\images\\ramen13-17-2022-05-17-55.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\images\\ramen13-18-2022-05-18-45.jpg",
+      "PackagePath": "staticwebassets\\images\\ramen13-18-2022-05-18-45.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\images\\tomyam.jpg",
+      "PackagePath": "staticwebassets\\images\\tomyam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\breakpoints.min.js",
+      "PackagePath": "staticwebassets\\js\\breakpoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\browser.min.js",
+      "PackagePath": "staticwebassets\\js\\browser.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\LICENSE.md",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\README.md",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\ckeditor.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\ckeditor.js.map",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\ckeditor.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\af.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\af.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\ar.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\ar.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\ast.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\ast.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\az.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\az.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\bg.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\bg.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\bn.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\bn.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\bs.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\bs.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\ca.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\ca.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\cs.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\cs.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\da.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\da.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\de-ch.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\de-ch.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\de.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\de.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\el.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\el.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\en-au.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\en-au.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\en-gb.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\en-gb.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\en.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\en.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\eo.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\eo.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\es-co.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\es-co.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\es.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\es.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\et.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\et.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\eu.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\eu.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\fa.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\fa.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\fi.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\fi.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\fr.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\fr.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\gl.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\gl.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\gu.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\gu.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\he.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\he.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\hi.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\hi.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\hr.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\hr.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\hu.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\hu.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\id.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\id.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\it.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\it.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\ja.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\ja.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\jv.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\jv.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\kk.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\kk.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\km.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\km.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\kn.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\kn.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\ko.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\ko.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\ku.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\ku.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\lt.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\lt.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\lv.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\lv.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\ms.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\ms.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\nb.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\nb.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\ne.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\ne.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\nl.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\nl.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\no.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\no.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\oc.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\oc.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\pl.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\pl.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\pt-br.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\pt-br.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\pt.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\pt.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\ro.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\ro.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\si.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\si.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\sk.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\sk.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\sl.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\sl.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\sq.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\sq.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\sr-latn.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\sr-latn.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\sr.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\sr.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\sv.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\sv.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\th.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\th.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\tk.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\tk.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\tr.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\tr.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\tt.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\tt.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\ug.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\ug.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\uk.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\uk.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\ur.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\ur.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\uz.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\uz.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\vi.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\vi.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\zh-cn.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\zh-cn.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\build\\translations\\zh.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\build\\translations\\zh.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\package.json",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\sample\\index.html",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\sample\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\sample\\styles.css",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\sample\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\src\\ckeditor.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\src\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\ckeditor\\webpack.config.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor\\webpack.config.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\scripts.min.js",
+      "PackagePath": "staticwebassets\\js\\scripts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\upload-adapter.js",
+      "PackagePath": "staticwebassets\\js\\upload-adapter.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\js\\util.js",
+      "PackagePath": "staticwebassets\\js\\util.js"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\base\\_page.scss",
+      "PackagePath": "staticwebassets\\sass\\base\\_page.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\base\\_reset.scss",
+      "PackagePath": "staticwebassets\\sass\\base\\_reset.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\base\\_typography.scss",
+      "PackagePath": "staticwebassets\\sass\\base\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\components\\_actions.scss",
+      "PackagePath": "staticwebassets\\sass\\components\\_actions.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\components\\_box.scss",
+      "PackagePath": "staticwebassets\\sass\\components\\_box.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\components\\_button.scss",
+      "PackagePath": "staticwebassets\\sass\\components\\_button.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\components\\_contact.scss",
+      "PackagePath": "staticwebassets\\sass\\components\\_contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\components\\_features.scss",
+      "PackagePath": "staticwebassets\\sass\\components\\_features.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\components\\_form.scss",
+      "PackagePath": "staticwebassets\\sass\\components\\_form.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\components\\_icon.scss",
+      "PackagePath": "staticwebassets\\sass\\components\\_icon.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\components\\_icons.scss",
+      "PackagePath": "staticwebassets\\sass\\components\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\components\\_image.scss",
+      "PackagePath": "staticwebassets\\sass\\components\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\components\\_list.scss",
+      "PackagePath": "staticwebassets\\sass\\components\\_list.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\components\\_mini-posts.scss",
+      "PackagePath": "staticwebassets\\sass\\components\\_mini-posts.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\components\\_pagination.scss",
+      "PackagePath": "staticwebassets\\sass\\components\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\components\\_posts.scss",
+      "PackagePath": "staticwebassets\\sass\\components\\_posts.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\components\\_row.scss",
+      "PackagePath": "staticwebassets\\sass\\components\\_row.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\components\\_section.scss",
+      "PackagePath": "staticwebassets\\sass\\components\\_section.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\components\\_table.scss",
+      "PackagePath": "staticwebassets\\sass\\components\\_table.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\layout\\_banner.scss",
+      "PackagePath": "staticwebassets\\sass\\layout\\_banner.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\layout\\_footer.scss",
+      "PackagePath": "staticwebassets\\sass\\layout\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\layout\\_header.scss",
+      "PackagePath": "staticwebassets\\sass\\layout\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\layout\\_main.scss",
+      "PackagePath": "staticwebassets\\sass\\layout\\_main.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\layout\\_menu.scss",
+      "PackagePath": "staticwebassets\\sass\\layout\\_menu.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\layout\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\sass\\layout\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\layout\\_wrapper.scss",
+      "PackagePath": "staticwebassets\\sass\\layout\\_wrapper.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\libs\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\sass\\libs\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\libs\\_functions.scss",
+      "PackagePath": "staticwebassets\\sass\\libs\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\libs\\_html-grid.scss",
+      "PackagePath": "staticwebassets\\sass\\libs\\_html-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\libs\\_mixins.scss",
+      "PackagePath": "staticwebassets\\sass\\libs\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\libs\\_vars.scss",
+      "PackagePath": "staticwebassets\\sass\\libs\\_vars.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\libs\\_vendor.scss",
+      "PackagePath": "staticwebassets\\sass\\libs\\_vendor.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\sass\\main.scss",
+      "PackagePath": "staticwebassets\\sass\\main.scss"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\mdkir\\Documents\\University\\Subjects\\Web\\Курсова\\CourseWork\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.CourseWork.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.CourseWork.props",
+      "PackagePath": "build\\CourseWork.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.CourseWork.props",
+      "PackagePath": "buildMultiTargeting\\CourseWork.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.CourseWork.props",
+      "PackagePath": "buildTransitive\\CourseWork.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

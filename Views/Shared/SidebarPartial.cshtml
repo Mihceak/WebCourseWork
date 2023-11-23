@@ -1,0 +1,64 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using System.Net
+<div id="sidebar">
+    <div class="inner">
+
+        <!-- Search -->
+        <section id="search" class="alt">
+            <form method="post" action="#">
+                <input type="text" name="query" id="query" placeholder="Поиск"/>
+            </form>
+        </section>
+
+        <!-- Menu -->
+        <nav id="menu">
+            <header class="major">
+                <h2>Меню</h2>
+            </header>
+            <ul>
+                @if (!User.Identity.IsAuthenticated)
+                {
+                    <li>
+                        <a asp-area="" asp-controller="Account" asp-action="Login" asp-route-returnUrl="@Context.Request.Path">авторизация</a>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-controller="Account" asp-action="Register" asp-route-returnUrl="@Context.Request.Path">Регистрация</a>
+                    </li>
+                }
+                else
+                {
+                    <li>
+                        <a asp-area="" asp-controller="Account" asp-action="Logout">Выйти из аккаунта</a>
+                    </li>
+                }
+                <li>
+                    <a asp-area="" asp-controller="Home" asp-action="Index">Главная</a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="Home" asp-action="RecipeList" asp-route-filter="First">Рецепты</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Section -->
+        <section>
+            <header class="major">
+                <h2>Контакты</h2>
+            </header>
+            <ul class="contact">
+                <li class="icon solid fa-envelope">
+                    <a href="#">example@gmail.com</a>
+                </li>
+                <li class="icon solid fa-phone">(097) 123-4567</li>
+                <li class="icon solid fa-home">
+                    1234 Somewhere Road #8254<br/>
+                    Nashville, TN 00000-0000
+                </li>
+            </ul>
+        </section>
+
+        <!-- Footer -->
+        @await Html.PartialAsync("FooterPartial")
+
+    </div>
+</div>

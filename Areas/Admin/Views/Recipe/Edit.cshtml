@@ -1,0 +1,60 @@
+﻿@model Recipe
+
+<form asp-area="Admin" asp-controller="Recipe" asp-action="Edit" enctype="multipart/form-data">
+    @Html.HiddenFor(x => x.ImageName)
+    <div>
+        @Html.ValidationSummary()
+    </div>
+    <div>
+        @Html.DisplayNameFor(x => x.Id)
+        @Html.TextBoxFor(x => x.Id, new { @readonly = true })
+    </div>
+    <div>
+        @Html.DisplayNameFor(x => x.ImageFile)
+        @Html.EditorFor(x => x.ImageFile)
+    </div>
+    <div>
+        @Html.DisplayNameFor(x => x.Title)
+        @Html.EditorFor(x => x.Title)
+    </div>
+    <div>
+        @Html.DisplayNameFor(x => x.Category)
+        @Html.DropDownListFor(x => x.Category, @Html.GetEnumSelectList<Category>())
+    </div>
+    <div>
+        @Html.DisplayNameFor(x => x.Description)
+        @Html.EditorFor(x => x.Description)
+    </div>
+    <div>
+        @Html.DisplayNameFor(x => x.Difficulty)
+        @Html.DropDownListFor(x => x.Difficulty, @Html.GetEnumSelectList<Difficulty>())
+    </div>
+    <div>
+        @Html.DisplayNameFor(x => x.PrepareTime)
+        @Html.EditorFor(x => x.PrepareTime)
+    </div>
+    <div>
+        @Html.DisplayNameFor(x => x.CookTime)
+        @Html.EditorFor(x => x.CookTime)
+    </div>
+    @Html.ActionLink("Добавить список", "Create", "IngredientList", new { id = Model.Id })
+    <div>
+        @foreach (var list in Model.IngredientLists)
+        {
+            @await Html.PartialAsync("_IngredientListPartial", list)
+        }
+    </div>
+    @Html.ActionLink("Добавить шаг", "AddStep", "Recipe", new { recipeId = Model.Id })
+    <div>
+        @for (var i = 0; i < Model.Steps.Count; i++)
+        {
+            @string.Concat(Html.DisplayNameFor(x => x.Steps), $" {i + 1}")
+            @Html.ActionLink("Удалить", "RemoveStep", "Recipe", new { recipeId = Model.Id, i })
+            @Html.TextBoxFor(x => x.Steps[i])
+            @Html.ValidationMessageFor(x => x.Steps[i])
+        }
+    </div>
+    <div>
+        <input type="submit" value="Сохранить изменения">
+    </div>
+</form>

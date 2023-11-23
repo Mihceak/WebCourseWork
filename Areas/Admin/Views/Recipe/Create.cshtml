@@ -1,0 +1,39 @@
+﻿@using Microsoft.AspNetCore.Server.Kestrel.Core
+@model RecipeViewModel
+
+<form asp-area="Admin" asp-controller="Recipe" asp-action="Create" method="post" enctype="multipart/form-data">
+    <div>
+        @Html.ValidationSummary();
+    </div>
+    <div>
+        @Html.DisplayNameFor(x => x.Image)
+        @Html.EditorFor(x => x.Image)
+    </div>
+    <div>
+        <label asp-for="Title"></label>
+        <input asp-for="Title">
+    </div>
+    <div>
+        <label asp-for="Category"></label>
+        <select asp-for="Category" asp-items="Html.GetEnumSelectList<Category>()"></select>
+    </div>
+    <div>
+        <label asp-for="Description"></label>
+        <input asp-for="Description">
+    </div>
+    <div>
+        <label asp-for="Difficulty"></label>
+        <select asp-for="Difficulty" asp-items="Html.GetEnumSelectList<Difficulty>()"></select>
+    </div>
+    <div>
+        <label asp-for="PrepareTime"></label>
+        <input asp-for="PrepareTime" type="number">
+    </div>
+    <div>
+        <label asp-for="CookTime"></label>
+        <input asp-for="CookTime" type="number">
+    </div>
+    <div>
+        <input type="submit" value="Добавить рецепт">
+    </div>
+</form>

@@ -1,0 +1,18 @@
+﻿@model DataManager
+
+@{
+    Layout = null;
+    var r = Model.Recipes.Get("a9c9c75d-aed3-4aa6-a5dd-3752f78f5443");
+}
+
+<div>@r.Title</div>
+<div>@r.Description</div>
+<div>Сложность: @r.Difficulty.ToRussian()</div>
+<div>Время подготовки: @r.PrepareTime</div>
+<div>Время готовки: @r.CookTime</div>
+<div>
+    @foreach (var list in r.IngredientLists)
+    {
+        @await Html.PartialAsync("TablePartial", list)
+    }
+</div>

@@ -1,0 +1,18 @@
+﻿
+@model CourseWork.Domain.Entities.Ingredient
+
+<tr>
+    <th>
+        @Model.Name
+    </th>
+    <th>
+        @if (Model.Unit is Unit.Taste or Unit.Optional)
+        {
+            @Model.Unit.ToRussian()
+        }
+        else
+        {
+            @Model.Amount @Model.Unit.ToRussian()
+        }
+    </th>
+</tr>

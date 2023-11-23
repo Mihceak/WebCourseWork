@@ -1,0 +1,91 @@
+﻿@model Recipe
+
+<section>
+    <header class="main">
+        <h1>@Model.Title</h1>
+    </header>
+    <div class="row aln-center">
+        <div class="col-8">
+            <span class="image main">
+                    <img src="@Url.Content("~/images/" + Model.ImageName)" alt>
+            </span>
+        </div>
+    </div>
+</section>
+<div class="row aln-center align-center">
+    <div class="col-2 col-2-xlarge col-12-small">
+        <span>
+            <div>
+                <b>Сложность</b>
+            </div>
+            <span class="span-darker">@Model.Difficulty.ToRussian()</span>
+        </span>
+    </div>
+    <div class="col-2 col-2-xlarge col-12-small">
+        <span>
+            <div>
+                <b>Подготовка</b>
+            </div>
+            <span class="span-darker">@Model.PrepareTime мин</span>
+        </span>
+    </div>
+    <div class="col-2 col-2-xlarge col-12-small">
+        <span>
+            <div>
+                <b>Приготовление</b>
+            </div>
+            <span class="span-darker">@Model.CookTime мин</span>
+        </span>
+    </div>
+</div>
+<hr class="major">
+<p>@Model.Description</p>
+<hr class="major">
+@foreach (var list in Model.IngredientLists)
+{
+    <h3>Ингредиенты @list.Purpose:</h3>
+    <div class="table-wrapper">
+        <table>
+            <thead>
+            <tr>
+                <th>Название</th>
+                <th>Количество</th>
+            </tr>
+            </thead>
+            <tbody class="span-darker">
+            @foreach (var ingredient in list.Ingredients)
+            {
+                <tr>
+                    <td>@ingredient.Name</td>
+                    <td>
+                        @if (ingredient.Unit is Unit.Optional or Unit.Taste)
+                        {
+                            @ingredient.Unit.ToRussian()
+                        }
+                        else
+                        {
+                            @ingredient.Amount @ingredient.Unit.ToRussian()
+                        }
+                    </td>
+                </tr>
+            }
+            </tbody>
+            <tfoot><tr></tr></tfoot>
+        </table>
+    </div>
+}
+<div class="col-6 col-12-small">
+    <h3>Приготовление:</h3>
+    <ol>
+        @foreach (var step in Model.Steps)
+        {
+            <li style="font-size: 1.25em">@step</li>
+        }
+    </ol>
+</div>
+<section>
+    <div style="color: #737272;font-size: 1.25em">
+        <p>Приятного аппетита!</p>
+    </div>
+</section>
+<footer id="footer"></footer>

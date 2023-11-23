@@ -1,0 +1,14 @@
+﻿@model IngredientList
+
+<h3>Ингредиенты @Model.Purpose:</h3>
+<table>
+    <tr>
+        <th>@Html.NameFor(x => x.Ingredients.FirstOrDefault().Name)</th>
+        <th>@Html.NameFor(x => x.Ingredients.FirstOrDefault().Amount)</th>
+    </tr>
+    @foreach (var ing in Model.Ingredients)
+    {
+        @await Html.PartialAsync("TableRowPartial", ing)
+    }
+</table>
+

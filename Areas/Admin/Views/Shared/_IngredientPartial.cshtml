@@ -1,0 +1,15 @@
+﻿@model Ingredient
+
+<tr>
+    <th>@Model.Name</th>
+    <th>
+        @if (Model.Unit is Unit.Optional or Unit.Taste)
+        {
+            @Model.Unit.ToRussian()
+        }
+        else
+        {
+            @Model.Amount @Model.Unit.ToRussian()
+        }
+    </th>
+</tr>

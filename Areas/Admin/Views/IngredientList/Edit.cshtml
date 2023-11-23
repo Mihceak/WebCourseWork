@@ -1,0 +1,20 @@
+﻿@model IngredientList
+
+<form asp-area="Admin" asp-controller="IngredientList" asp-action="Edit">
+    <div>
+        @Html.DisplayNameFor(x => x.Id)
+        @Html.TextBoxFor(x => x.Id, new { @readonly = "true" })
+    </div>
+    <div>
+        @Html.DisplayNameFor(x => x.RecipeId)
+        @Html.TextBoxFor(x => x.RecipeId, new { @readonly = "true" })
+    </div>
+    <div>
+        @Html.DisplayNameFor(x => x.Purpose)
+        @Html.TextBoxFor(x => x.Purpose)
+        @Html.ValidationMessageFor(x => x.Purpose)
+    </div>
+    <div>
+        <input type="submit" value="Сохранить изменения">
+    </div>
+</form>

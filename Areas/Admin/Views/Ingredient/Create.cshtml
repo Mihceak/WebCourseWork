@@ -1,0 +1,26 @@
+﻿@model IngredientViewModel
+
+<form asp-area="Admin" asp-controller="Ingredient" asp-action="Create">
+    @Html.HiddenFor(x => x.ReturnUrl)
+    @Html.HiddenFor(x => x.IngredientListId)
+    @Html.HiddenFor(x => x.IngredientList)
+    @Html.HiddenFor(x => x.Id)
+    <div>
+        @Html.DisplayNameFor(x => x.Name)
+        @Html.EditorFor(x => x.Name)
+        @Html.ValidationMessageFor(x => x.Name)
+    </div>
+    <div>
+        @Html.DisplayNameFor(x => x.Amount)
+        @Html.EditorFor(x => x.Amount)
+        @Html.ValidationMessageFor(x => x.Amount)
+    </div>
+    <div>
+        @Html.DisplayNameFor(x => x.Unit)
+        @Html.DropDownListFor(x => x.Unit, Html.GetEnumSelectList<Unit>())
+        @Html.ValidationMessageFor(x => x.Unit)
+    </div>
+    <div>
+        <input type="submit" value="Добавить ингредиент">
+    </div>
+</form>
