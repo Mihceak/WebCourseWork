@@ -44,6 +44,6 @@
   },
   "scripts": {
     "build": "webpack --mode production",
-    "start": "node ./build/ckeditor.js"
+    "start": "node .js/ckeditor/build/ckeditor.js"
   }
 }
