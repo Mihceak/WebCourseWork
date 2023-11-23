@@ -43,7 +43,7 @@
     "webpack-cli": "^4.10.0"
   },
   "scripts": {
-    "build": "webpack --mode production",
-    "start": "node .js/ckeditor/build/ckeditor.js"
+    "build": "webpack --mode production  --progress",
+    "start": "NODE_ENV=production node .js/ckeditor/build/ckeditor.js"
   }
 }
