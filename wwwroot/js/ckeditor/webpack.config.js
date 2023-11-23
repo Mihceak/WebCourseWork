@@ -17,6 +17,10 @@ module.exports = {
 	devtool: 'source-map',
 	performance: { hints: false },
 
+	resolve: {
+		extensions: ['.js', '.jsx']
+	},
+	
 	entry: './src/ckeditor.js',
 
 	output: {
